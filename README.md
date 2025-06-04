@@ -1,4 +1,4 @@
-![header-image](/Learn-JavaScript/Projects/assets/laptop-photo.jpeg)
+![header-image](./Learn-JavaScript/Projects/assets/laptop-photo.jpeg)
 
 # ***Scrimba - Roadmap & Projects***
 
