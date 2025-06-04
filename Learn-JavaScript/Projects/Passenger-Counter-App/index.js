@@ -15,3 +15,4 @@ function increment() {
 // document.getElementById("count").innerText = 5
 // change the count-el in the HTML to reflect the new count
 
+let countEl = document.getElementById("count-el"); 
