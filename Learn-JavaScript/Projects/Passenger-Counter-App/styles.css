@@ -1,13 +1,15 @@
-  @import url(https://fonts.googleapis.com/css?family=Roboto:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
 
 body {
     background-image: url("./station.jpg"); 
     background-size: cover;
-   
+    background-position: center;
+    min-height: 100vh;
 }
 
-.app-container{
+.btn-container{
     width: 100%;
+    height: 100%;
     margin-left: auto;
     margin-right: auto;
     font-family: Roboto;
