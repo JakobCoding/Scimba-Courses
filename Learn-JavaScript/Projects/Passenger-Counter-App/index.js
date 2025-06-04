@@ -13,6 +13,5 @@
 function increment() {
   console.log("clicked");
 }
-
 // increment the count variable when the button is clicked (log it out)
 // change the count-el in the HTML to reflect the new count
