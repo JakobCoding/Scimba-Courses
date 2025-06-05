@@ -1,0 +1,13 @@
+Working with the DOM 
+DOM = Document Object Model
+(aka: how you use JavaScript to modify a website)
+
+Document = HTML document
+
+Object = {HTML document} object is JavaScript key word for data type. Meaning we've taken the html document and classed it as JavaScript object.
+
+Document object = <h2 id="count-el">0</h2>
+Model = let countEl = document.getElementById("count-el"); 
+
+The Document Object Model (DOM) is a programming interface for web documents. It represents the page so that programs can change the document structure, style, and content. The DOM represents the document as nodes and objects; that way, programming languages can interact with the page.
+

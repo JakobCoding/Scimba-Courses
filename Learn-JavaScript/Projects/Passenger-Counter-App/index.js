@@ -1,6 +1,3 @@
-
-
-
 // intialize the count as 0
 let count = 0
 
@@ -18,6 +15,5 @@ function increment() {
     countEl.innerText = count
 }
 
-// console log 
-// console.log(count);
+
 
