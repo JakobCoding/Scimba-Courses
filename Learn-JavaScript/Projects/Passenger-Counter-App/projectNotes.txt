@@ -1,6 +1,6 @@
 Working with the DOM 
 DOM = Document Object Model
-(aka: how you use JavaScript to modify a website)
+(aka: How you use JavaScript to modify a website)
 
 Document = HTML document
 
