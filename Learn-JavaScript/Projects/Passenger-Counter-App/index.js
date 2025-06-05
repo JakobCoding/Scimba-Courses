@@ -5,7 +5,7 @@
 let count = 0
 
 // define countEL variable and assign document.getElementById("count-el") as its value
-let countEl = document.getElementById("count-el");
+let countEl = document.getElementById("count-el"); // pass in arguments
 
 // Create increment function
 
