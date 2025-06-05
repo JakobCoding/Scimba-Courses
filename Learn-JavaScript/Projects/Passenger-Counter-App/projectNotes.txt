@@ -11,7 +11,7 @@ Model = let countEl = document.getElementById("count-el");
 
 The Document Object Model (DOM) is a programming interface for web documents. It represents the page so that programs can change the document structure, style, and content. The DOM represents the document as nodes and objects; that way, programming languages can interact with the page.
 
-// Exercise 
+// Challenge: 
 let username = "per"
 let message = "You have tree new notifications"
 
@@ -21,3 +21,15 @@ console.log(message + ", " + username + "!")
  
  let messageToUser = message + ", " + username + "!"
  console.log(messageToUser) // Correct solution 
+
+Challenge:
+// Create two variables, name and greeting. The name variable should store your name,
+// and the greeting should store e.g. "Hi, my name is "
+
+// Create a third variable, myGreeting, that contatenates the two strings
+// Log myGreeting to the console
+
+let name = "Jake"
+let greeting = "Hi, my name is "
+let myGreeting = name + greeting 
+console log 
