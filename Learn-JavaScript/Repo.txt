@@ -1,4 +1,4 @@
-This repository includes all courses and projects completed on the Scrimba.com learning platfom.
+This repository includes all courses and projects completed on the Scrimba.com learning platform.
 
 ! Cheeky cheat code from deep seek to make sure 
 background images are responsive at all sizes!
