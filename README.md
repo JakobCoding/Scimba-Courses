@@ -2,6 +2,6 @@
 
 # ***Scrimba - Roadmap & Projects***
 
-### ***Project One:** Passenger Counter App - (live link coming soon)*
+### ***Project 1:** Head Counter App - [Live Site](https://jakesheadcounter.netlify.app/)*
 
-![UI-Screenshot.png](HeadCounter/UI-Screenshot.png)
+![UI-Screenshot.png](/HeadCounter/Assets/Ui.png)
