@@ -4,13 +4,17 @@ body {
     background-image: url("/HeadCounter/assets/station.jpg");
     background-size: cover;
     height: 100vh;
-    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
     text-align: center;
 }
 
 .container {
+    background-color: rgba(255, 255, 255, 0.4);
+    width: 300px;
+    max-width: 80%;
     margin: auto;
-    max-width: 500px;
+    border-radius: 10px;
+    border: solid rgb(133, 133, 133) 2px;
 }
 
 h1 {
@@ -31,14 +35,20 @@ button {
     color: white;
     font-weight: bold;
     width: 200px;
-    margin-bottom: 5px;
-    border-radius: 5px;
+    margin-bottom: 10px;
+    border-radius: 10px;
 }
 
 #increment-btn {
-    background: darkred;
+    background: darkblue;
 }
 
 #save-btn {
     background: darkgreen;
+}
+
+#save-el {
+    margin-bottom: 40px;
+    font-family: Roboto, sans-serif;
+    font-weight: bold;
 }
