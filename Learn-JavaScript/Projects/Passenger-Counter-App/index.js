@@ -3,8 +3,10 @@
 -define countEL variable and assign document.getElementById("count-el") as its value
 */
 
+let countEl = document.getElementById
+("count-el"); 
+let saveEl = document.getElementById("save-el")
 let count = 0;
-let countEl = document.getElementById("count-el"); // pass in arguments
 
 /*
 -Create increment function
@@ -13,12 +15,21 @@ let countEl = document.getElementById("count-el"); // pass in arguments
 */
 
 function increment() {
-	count = count + 1;
+	count += 1;
 	countEl.innerText = count;
 }
 
-//- Create a function, save(), which logs  out the count when it's called
+/*
+- Create a function, save(), which logs  out the count when it's called
+- Grab the save-el paragraph and store it in a variable called saveEl
+- Create a variable that contains both the count and the dash separator, i.e. "12 - "
+- Render the variable in the saveEl using innerText
+- NB: Make sure to not delete the existing content of the paragraph
+*/
 
-function save() {
-	console.log(count);
+function save() { 
+	let countPlusDash = " " + count + " -"
+	saveEl.innerText += countPlusDash
+	console.log(count)
 }
+
