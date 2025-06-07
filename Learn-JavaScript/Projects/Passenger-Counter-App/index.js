@@ -13,12 +13,12 @@ let countEl = document.getElementById("count-el"); // pass in arguments
 */
 
 function increment() {
-  count = count + 1;
-  countEl.innerText = count;
+	count = count + 1;
+	countEl.innerText = count;
 }
 
 //- Create a function, save(), which logs  out the count when it's called
 
 function save() {
-  console.log(count);
+	console.log(count);
 }
