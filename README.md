@@ -4,4 +4,4 @@
 
 ### ***Project 1:** Head Counter App - [Live Site](https://jakesheadcounter.netlify.app/)*
 
-![Screenshot](/HeadCounter/Assets/Ui.png)
+![image](/HeadCounter/Styles/Ui.png)
