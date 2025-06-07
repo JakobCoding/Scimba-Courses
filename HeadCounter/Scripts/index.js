@@ -28,8 +28,7 @@ function increment() {
 */
 
 function save() { 
-	let countPlusDash = " " + count + " -"
-	saveEl.innerText += countPlusDash
-	console.log(count)
+	let countStr = count + " - "
+	saveEl.textContent += countStr
 }
 
