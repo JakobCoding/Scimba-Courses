@@ -77,13 +77,13 @@ console.log(myPoints);
 * When the user clicks the purchase button, render out
 * "Something went wrong, please try again" in the paragraph
 * that has the id="error".
-
-let errorParagraph = document.getElementById("error");
-console.log(errorParagraph) 
-
-function errorMessage() {
-    console.log("button clicked");
-    errorParagraph.textContent = "Something went wrong, Please try again";
-}
-
 */
+
+let showText = document.getElementById("text-content");
+    console.log(showText)
+
+function howToRender() {
+    console.log("button clicked!")
+    showText.textContent = "create a button with an id, store the id in variable let showText = document.getElementByID('id'), create function howToShowText(){}, Inside function type - showText.textContent = 'Hooray you rendered text!'";
+   
+}
