@@ -52,7 +52,7 @@ welcomeEl.innerText += "👋";
 * Create two functions, add3Points() and remove1Point(),    and have them
 * add/remove points to/from the myPoints variable
 * Call the functions to that the line below logs out 10
-*/
+
 
 let myPoints = 3;
 
@@ -71,3 +71,10 @@ remove1Point();
 remove1Point();
 
 console.log(myPoints);
+*/
+
+// When the user clicks the purchase button, render out
+// "Something went wrong, please try again" in the paragraph
+// that has the id="error".
+
+
