@@ -1,4 +1,4 @@
-// Challenge 1.
+/*// Challenge 1.
 let username = "per";
 let message = "You have tree new notifications";
 
@@ -22,3 +22,12 @@ welcomeEl.innerText = greeting + name;
 
 // welcomeEl.innerText = welcomeEl.innerText + "👋";
 welcomeEl.innerText += "👋";
+*/
+
+// Variables Practice // 
+
+let firstName = "Jake";
+let lastName = "Matrix Coder";
+let fullName = firstName + " " +  lastName;
+
+console.log(fullName);
