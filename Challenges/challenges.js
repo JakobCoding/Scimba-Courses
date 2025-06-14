@@ -26,8 +26,18 @@ welcomeEl.innerText += "👋";
 
 // Variables Practice // 
 
-let firstName = "Jake";
-let lastName = "Matrix Coder";
-let fullName = firstName + " " +  lastName;
+// let firstName = "Jake";
+// let lastName = "Matrix Coder";
+// let fullName = firstName + " " +  lastName;
 
-console.log(fullName);
+// console.log(fullName);
+
+// CONCATENATE TWO STRINGS IN A FUNCTION // 
+
+let name = "Linda";
+let greeting = "Hi there";
+
+function concatenate() {
+    console.log(greeting + "," + " " + name + "!");
+}
+concatenate();
