@@ -121,9 +121,20 @@ function subtract() {
 
 }
 
-function divide () {}
+let divideEl = document.getElementById("sum-el");
 
-function multiply() {}
+function divide () {
+    result = num1 / num2;
+    divideEl.textContent = "Sum: " + result;
+
+}
+
+let timesEl = document.getElementById("sum-el");
+
+function multiply() {
+    result = num1 * num2;
+    timesEl.textContent = "Sum: " + result;
+}
 
 
 
