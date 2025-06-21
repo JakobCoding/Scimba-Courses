@@ -25,6 +25,6 @@ if (sum < 21) {
     console.log("Do you want to draw a new card?");
 } else if (sum === 21){
     console.log("Woohoo! BlackJack you Win!")
-} else if (sum > 21) {
+} else {
     console.log("Oh no, you Bust!, You're out of the game!")
 }
