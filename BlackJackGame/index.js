@@ -28,3 +28,17 @@ if (sum < 21) {
 } else {
     console.log("Oh no, you Bust!, You're out of the game!")
 }
+
+// Check if the person is old enough to enter the nightclub (21)
+// Log a suitable message to the console in both cases
+
+let age = 22
+
+// if less than 21 -> "You can not enter the club!"
+// else            -> "Welcome!"
+
+if (age < 21) {
+    console.log("Sorry, you cannot enter the casino.")
+} else {
+    console.log("Welcome to the Casino, Have fun!")
+}
